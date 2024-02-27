@@ -16,5 +16,9 @@ if usernameInput == 'egalong' and passwordInput == '356897':
     elif UserSelected == 3:
         amount = int(input("Please Enter amount : "))
         print("Total Price:", str(35*amount), "THB")
+    elif 3<UserSelected or UserSelected==0:
+        print("***Wrong Product Number!***")
 else:
-    print("---ERROR---")
+    print("***Inccorect Usename or Password Try again!***")
+print(" ")
+print("♥♥♥THANK YOU♥♥♥")
